@@ -494,8 +494,8 @@
   </project>
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   
-  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="private" revision="linaro-4.8-arm-linux-androideabi" />
-  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="private" revision="linaro-4.8-arm-eabi" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="master" />
   
   <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" remote="private" revision="cm-11.0" />
   <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf" remote="private" revision="cm-11.0" />
